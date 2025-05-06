@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "292105313301",
+    "project_id": "exeed-4e1fb",
+    "storage_bucket": "exeed-4e1fb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:292105313301:android:1a899f46c68b116641c21c",
+        "android_client_info": {
+          "package_name": "com.example.car_rental"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnIOU4Pheie2LeEbVtIzO8prEqzrWD5ys"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:292105313301:android:e111cea568e919b541c21c",
+        "android_client_info": {
+          "package_name": "com.example.exeedcars"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnIOU4Pheie2LeEbVtIzO8prEqzrWD5ys"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:292105313301:android:e4eaf230f18844e841c21c",
+        "android_client_info": {
+          "package_name": "com.example.exeedowneradmin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnIOU4Pheie2LeEbVtIzO8prEqzrWD5ys"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

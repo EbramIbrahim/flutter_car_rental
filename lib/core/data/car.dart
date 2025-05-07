@@ -1,8 +1,8 @@
 class Car {
   final String model;
-  final double distance;
-  final double fuelCapacity;
-  final double pricePerHour;
+  final String distance;
+  final String fuelCapacity;
+  final String pricePerHour;
 
   Car({
     required this.model,

@@ -1,11 +1,13 @@
-import 'package:car_rental/core/data/car.dart';
-import 'package:car_rental/feature/car_details/presentation/car_details_screen.dart';
-import 'package:car_rental/feature/cars_list/presentation/car_list_screen.dart';
-import 'package:car_rental/feature/onBoarding/onboarding_screen.dart';
+import 'package:car_rental/core/routing/route_generation_config.dart';
+import 'package:car_rental/feature/di/service_locator.dart';
+import 'package:car_rental/firebase_options.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 
-void main() {
+void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  setupLocator();
+  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
   runApp(const MyApp());
 }
 
@@ -15,16 +17,9 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return MaterialApp.router(
       title: 'Car Rental',
-      home: CarDetailsScreen(
-        car: Car(
-          model: "Fortuner GR",
-          distance: 870,
-          fuelCapacity: 50,
-          pricePerHour: 45,
-        ),
-      ),
+      routerConfig: RouteGenerationConfig.goRouter,
     );
   }
 }

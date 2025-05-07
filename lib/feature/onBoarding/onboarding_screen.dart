@@ -1,5 +1,7 @@
+import 'package:car_rental/core/routing/app_route.dart';
 import 'package:car_rental/core/styeling/app_assets.dart';
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 
 class OnboardingScreen extends StatelessWidget {
   const OnboardingScreen({super.key});
@@ -43,7 +45,11 @@ class OnboardingScreen extends StatelessWidget {
                   width: 320,
                   height: 54,
                   child: ElevatedButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      GoRouter.of(
+                        context,
+                      ).pushReplacementNamed(AppRoute.carsListScreen);
+                    },
                     style: ElevatedButton.styleFrom(
                       foregroundColor: Colors.black,
                       backgroundColor: Colors.white,

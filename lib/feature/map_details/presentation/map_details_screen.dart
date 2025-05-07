@@ -1,4 +1,5 @@
 import 'package:car_rental/core/data/car.dart';
+import 'package:car_rental/core/styeling/app_assets.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_map/flutter_map.dart';
 import 'package:latlong2/latlong.dart';
@@ -63,7 +64,7 @@ Widget carDetailsCard({required Car car}) {
             children: [
               SizedBox(height: 20),
               Text(
-                '${car.model}',
+                car.model,
                 style: TextStyle(
                   fontSize: 24,
                   fontWeight: FontWeight.bold,
@@ -83,7 +84,7 @@ Widget carDetailsCard({required Car car}) {
                   Icon(Icons.battery_full, color: Colors.white, size: 14),
                   SizedBox(width: 5),
                   Text(
-                    '${car.fuelCapacity.toString()}',
+                    car.fuelCapacity.toString(),
                     style: TextStyle(color: Colors.white, fontSize: 14),
                   ),
                 ],
@@ -144,7 +145,7 @@ Widget carDetailsCard({required Car car}) {
         Positioned(
           top: 50,
           right: 20,
-          child: Image.asset('assets/white_car.png'),
+          child: Image.asset(AppAssets.whiteCarImg),
         ),
       ],
     ),

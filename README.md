@@ -34,5 +34,5 @@ A modern Ecommerce application featuring real-time Products updates, Products co
 ## Installation ⚙️
 1. Clone the repository:
    ```bash
-   git clone https://github.com/EbramIbrahim/flutter_e-commerce.git
+   git clone https://github.com/EbramIbrahim/flutter_car_rental.git
   

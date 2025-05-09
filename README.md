@@ -1,16 +1,38 @@
-# car_rental
+# Car Rental - Modern Car-Rental App 📰
 
-A new Flutter project.
+![Flutter](https://img.shields.io/badge/Flutter-3.19-blue)
+![Firebase](https://img.shields.io/badge/Firebase-Emulator-orange)
+![Bloc](https://img.shields.io/badge/State%20Management-Bloc-purple)
 
-## Getting Started
+A modern Ecommerce application featuring real-time Products updates, Products content, and seamless authentication. Built with Flutter and integrated with Firebase services.
 
-This project is a starting point for a Flutter application.
+ <table>
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/fa7b932c-2e2a-4a6b-b20c-0e08d6bbef95" width200 height="500">
+    </td>
+    <td>
+        <img src="https://github.com/user-attachments/assets/5f81f5d1-b5dd-4ac7-b4bc-f0dad10d0219" width200 height="500">
+    </td>
+    <td>
+       <img src="https://github.com/user-attachments/assets/305e9d0b-78d8-48b9-b685-d28a3320935f" width200 height="500">
+    </td>
+    <td>
+       <img src="https://github.com/user-attachments/assets/3fbb01a3-0f59-4ff7-9385-a5421ba3792b" width200 height="500">
+    </td>
+  </tr>
+</table>
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Technologies 🛠️
+- **Framework**: Flutter (Dart)
+- **Backend**: Firebase (Auth, Firestore)
+- **State Management**: Bloc
+- **Routing**: Go Router
+- **UI**: Responsive Design, 
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Installation ⚙️
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/EbramIbrahim/flutter_car_rental.git
+  
